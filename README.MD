@@ -123,6 +123,192 @@ $$
 
 ---
 
+# Cognitive Foundations of Linguistic Personality Inference
+
+This project is grounded in the idea that **language is a behavioral trace of cognition**.
+
+Personality traits influence how individuals:
+
+- attend to information
+- structure thoughts
+- regulate emotions
+- interact socially
+- communicate internal states
+
+These differences in cognitive style manifest as **systematic patterns in language production**.
+
+The central hypothesis of this project is therefore:
+
+Personality → Cognitive Style → Language Patterns
+
+By measuring linguistic signals in text, we can approximate underlying cognitive tendencies associated with personality traits.
+
+---
+
+## Generative Model of Language
+
+Language is not produced by personality alone. It is influenced by several interacting factors.
+
+A simplified model of language production can be expressed as:
+
+$$
+L = f(P, M, T) + \epsilon
+$$
+
+Where:
+
+- \(L\) = observed language
+- \(P\) = stable personality traits
+- \(M\) = temporary emotional state (mood)
+- \(T\) = topic of discourse
+- \(\epsilon\) = noise and contextual variation
+
+This project attempts to approximate the inverse problem:
+
+$$
+P = g(L)
+$$
+
+That is, inferring personality traits from linguistic observations.
+
+---
+
+## Cognitive Signals Embedded in Language
+
+Human cognition leaves measurable traces in linguistic structure.  
+The features extracted by the model attempt to capture these signals.
+
+Examples include:
+
+| Linguistic Signal | Cognitive Interpretation |
+|------------------|--------------------------|
+| lexical diversity | conceptual breadth and intellectual exploration |
+| sentence length | depth of cognitive elaboration |
+| pronoun usage | self-focused vs socially oriented attention |
+| emotional words | affective processing tendencies |
+| question frequency | curiosity and uncertainty processing |
+| topic diversity | abstract thinking and conceptual exploration |
+
+These signals act as **proxies for underlying cognitive processes**.
+
+---
+
+## Personality Traits as Cognitive Patterns
+
+Each of the Big Five traits can be interpreted as a stable configuration of cognitive tendencies.
+
+### Openness to Experience
+
+Associated cognitive tendencies:
+
+- curiosity
+- abstract reasoning
+- intellectual exploration
+
+Expected linguistic manifestations:
+
+- higher lexical diversity
+- higher topic diversity
+- more varied vocabulary
+
+---
+
+### Conscientiousness
+
+Associated cognitive tendencies:
+
+- structured thinking
+- goal-directed reasoning
+- disciplined cognitive organization
+
+Expected linguistic manifestations:
+
+- consistent sentence structure
+- organized phrasing
+- reduced linguistic randomness
+
+---
+
+### Extraversion
+
+Associated cognitive tendencies:
+
+- social attention
+- expressive communication
+- interpersonal engagement
+
+Expected linguistic manifestations:
+
+- higher social word frequency
+- conversational language markers
+- expressive punctuation
+
+---
+
+### Agreeableness
+
+Associated cognitive tendencies:
+
+- empathy
+- cooperative reasoning
+- social sensitivity
+
+Expected linguistic manifestations:
+
+- politeness markers
+- supportive emotional language
+- social references
+
+---
+
+### Neuroticism
+
+Associated cognitive tendencies:
+
+- emotional sensitivity
+- threat detection
+- anxiety-related cognitive patterns
+
+Expected linguistic manifestations:
+
+- higher negative emotion frequency
+- anxiety-related vocabulary
+- uncertainty markers
+
+---
+
+## Language as Behavioral Data
+
+Traditional personality assessment relies on questionnaires.  
+This project instead treats **language itself as behavioral data**.
+
+Rather than asking individuals to self-report their personality traits, the system attempts to infer those traits from naturally produced language.
+
+This approach aligns with emerging research areas including:
+
+- computational psycholinguistics
+- behavioral AI
+- digital personality inference
+- cognitive modeling of language production
+
+Language becomes a measurable reflection of cognitive structure.
+
+---
+
+## Relationship to the Feature Engineering Pipeline
+
+The 25 linguistic features used by the model are therefore not arbitrary signals.
+
+They are designed to approximate measurable indicators of:
+
+- cognitive complexity
+- emotional processing
+- social orientation
+- attentional focus
+- conceptual exploration
+
+These features serve as the **observable layer connecting cognition to machine learning inference**.
+
 # Feature Engineering
 
 The system extracts **25 psycholinguistic features** from text.
