@@ -11,7 +11,7 @@ This project explores the intersection of:
 
 The model analyzes linguistic patterns in text and predicts the probability of each personality trait.
 
-Note: The data set can be found int the following link
+Note: The dataset to train can be found in the following link
 
 ```bash
 https://huggingface.co/datasets/jingjietan/essays-big5/tree/main/data
